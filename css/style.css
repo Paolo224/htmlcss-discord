@@ -36,44 +36,83 @@ header{
 }
 
 .second-div-header{
-    /* background-color: #ee82ee; */
     margin: 2rem 25rem 2rem 25rem;
     height: 80%;
     min-width: 39.65rem;
 }
 
-.square-big-gray{
-    background-color: #1e90ff;
+.square-frog{
     width: 45rem;
     height: 20rem;
-    border: 1px black solid;
+    min-width: 22.84rem;
+}
+
+.square-frog-text{
+    width: 30rem;
+    height: 20rem;
+    min-width: 15.25rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+
+.square-frog-text p{
+    font-size: .8rem;
+    color: gray;
+    line-height: 1.3rem;
+    margin-top: 1.7rem;
+}
+
+.square-wizard{
+    width: 45rem;
+    height: 20rem;
     margin-right: 14rem;
     min-width: 22.84rem;
 }
 
-.square-big{
-    background-color: #1e90ff;
+.square-wizard-text{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 14rem;
+    min-width: 15.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-left: 8rem;
+
+}
+
+.square-wizard-text p{
+    font-size: .8rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.3rem;
+    margin-top: 1.7rem;
+}
+
+.square-alien{
     width: 45rem;
     height: 20rem;
-    border: 1px black solid;
     min-width: 22.84rem;
 }
 
-.square-small{
-    background-color: #ffc0cb;
+.square-alien-text{
     width: 30rem;
     height: 20rem;
-    border: 1px black solid;
     min-width: 15.25rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+    padding-top: 2rem;
 }
 
-.square-small-gray{
-    background-color: #ffc0cb;
-    width: 30rem;
-    height: 20rem;
-    border: 1px black solid;
-    margin-left: 14rem;
-    min-width: 15.25rem;
+.square-alien-text p{
+    font-size: .8rem;
+    color: gray;
+    line-height: 1.3rem;
+    margin-top: 1.7rem;
 }
 
 .dimension-section1{
@@ -83,25 +122,43 @@ header{
     align-items: center;
 }
 
-#dimension-section1-gray{
-    background-color: #d3d3d3;
-}
-
 .dimension-section2{
-    height: 50rem;
+    height: 60rem;
     padding: 3rem 0;
     justify-content: center;
     align-items: center;
     background-color: #d3d3d3;
 }
 
-.big-square-of-section2{
-    background-color: #228b22;
+#dimension-section1-gray{
+    background-color: #d3d3d3;
+}
+
+.big-square-discordcall{
     width: 75rem;
-    height: 40rem;
-    border: 1px black solid;
+    height: 50rem;
     margin: 0 14rem;
     min-width: 38.2rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+
+.big-square-discordcall>p{
+    font-size: .8rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.3rem;
+    margin-top: 1.7rem;
+    margin: 1rem 5rem .5rem 5rem;
+}
+
+.pronto-avventura{
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    padding-top: 2rem;
 }
 
 .section-black{
@@ -130,7 +187,6 @@ header{
 .section-black-small{
     background-color: #23272a;
     padding: 1rem 14rem 0rem 14rem;
-    margin-top: 0.1rem;
     width: 100%;
     justify-content: center;
 }
@@ -208,6 +264,21 @@ header{
     text-shadow: 2px 2px #23272a ;
 }
 
+[src="./img/item1.svg"]{
+    width: 100%;
+    height: 100%;
+}
+
+[src="./img/item2.svg"]{
+    width: 100%;
+    height: 100%;
+}
+
+[src="./img/item3.svg"]{
+    width: 100%;
+    height: 100%;
+}
+
 #button1{
     border: 1px white solid;
     border-radius: 45rem;
@@ -235,4 +306,15 @@ header{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     margin-left: 1rem;
+}
+
+#button4{
+    border: 1px #7289da solid;
+    background-color: #7289da;
+    border-radius: 45rem;
+    color: rgb(255, 255, 255);
+    padding: .5rem .6rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2.5rem;
 }
