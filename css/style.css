@@ -24,7 +24,48 @@ header{
     padding-bottom: 2rem;
     flex-wrap: wrap;
     min-width: 63rem;
+}
 
+#titolo-centrale{
+    height: 80%;
+    padding: .8rem;
+    margin-top: 2rem;
+}
+
+#logo{
+    width: 20%;
+    text-align: start;
+    height: 1.6rem;
+}
+
+#link{
+    width: 80%;
+    text-align: center;
+    height: 1.6rem;
+}
+
+#login{
+    width: 20%;
+    text-align: end;
+    height: 1.6rem;
+} 
+
+#titolo-principale{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#introduzione{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.7rem;
+    line-height: 1.4rem;
 }
 
 .first-div-header{
@@ -225,38 +266,19 @@ div.rectangle-more ul li{
     justify-content: center;
 }
 
-#titolo-principale{
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
 
-#introduzione{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: .9rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.7rem;
-    line-height: 1.4rem;
-}
-
-#logo2{
-    background-color: #7fffd4;
+#logo-footer{
     width: 50%;
     height: 80%;
-    border: 1px rgb(255, 255, 255) dashed;
+    border-top: 3px #7289da solid;
     justify-content: flex-start;
     padding: .8rem 0;
 }
 
 #div-button4{
-    background-color: #7fffd4;
     width: 50%;
     height: 80%;
-    border: 1px rgb(255, 255, 255) dashed;
+    border-top: 3px #7289da solid;
     justify-content: flex-end;
     padding: .8rem 0;
 }
@@ -264,30 +286,6 @@ div.rectangle-more ul li{
 .div-button2-3{
     text-align: center;
 }
-
-#titolo-centrale{
-    height: 80%;
-    padding: .8rem;
-    margin-top: 2rem;
-}
-
-#logo{
-    width: 20%;
-    text-align: start;
-    height: 1.6rem;
-}
-
-#link{
-    width: 80%;
-    text-align: center;
-    height: 1.6rem;
-}
-
-#login{
-    width: 20%;
-    text-align: end;
-    height: 1.6rem;
-} 
 
 [href]{
     color: white;
@@ -357,4 +355,13 @@ div.rectangle-more ul li{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     margin-top: 2.5rem;
+}
+
+#button5{
+    border: 1px #7289da solid;
+    background-color: #7289da;
+    border-radius: 45rem;
+    color: rgb(255, 255, 255);
+    padding: .5rem .6rem;
+    font-family: 'Open Sans', sans-serif;
 }
